@@ -1,0 +1,38 @@
+<html>
+<head><title>LOGIN-FORM</title>
+<style type="text/css">
+  .centered
+  {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+.center2
+{
+  position: fixed;
+  top: 80%;
+  left: 100%;
+  margin-top: -75px;
+  margin-left: -750px;
+}   
+}
+
+</style>
+</head>
+<body> 
+<center><b style="font-size:50px">LOGIN</b></center>
+<form action="/DBConn/ServletConnection" method="post">
+    <div class="centered">
+       <b style="font-size:20px">Username </b>: <input type="text" name="uname" placeholder="Enter your name"><br><br><br>
+       <b style="font-size:20px">Password </b>: <input type="password" name="pwd" placeholder="Enter your password"><br><br><br>
+       <input type="submit" value="LOGIN"><br><br><br> 
+       
+    </div>
+</form>
+<div class="center2">
+<center><b>NEW USER?</b>  >>>><a href="register.html"><input type="submit" value="REGISTER" ></a></b></center>
+</div>
+</body>
+</html>
